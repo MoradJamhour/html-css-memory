@@ -1,0 +1,61 @@
+* {
+  background-color: #ADD8E6;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Nerko One', cursive;
+  /*padding-left: 150px;
+  padding-right: 150px;
+  max-width: none;
+  margin: auto;*/
+}
+
+h1{
+  color: #ffffff;
+  text-align: center;
+}
+
+.grid{
+  padding-left: -left: 350px;
+  padding-left: 350px;
+}
+
+.card{
+  display: inline-block;
+  background-image: url('../img/pattern.png');
+  background-size: contain;
+  border-radius: 10px;
+  height: 200px;
+  width: 150px;
+  margin: 15px;
+}
+
+.flipped-card{
+  position: relative;
+  background-image: url('../img/noun_air_balloon_31347411.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  display: inline-block;
+  border-radius: 10px;
+  height: 200px;
+  width: 150px;
+  margin: 15px;
+}
+
+p{
+  position:absolute;
+  width:100%;
+  bottom:0;
+  text-align:center;
+  background-color: white;
+  color: #E61986;
+}
+
+h3{
+  text-align: center;
+  color: black;
+}
